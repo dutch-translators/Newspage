@@ -6,6 +6,7 @@
 * @package language
 * @version $Id$
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Dutch translation by Dutch Translators (https://github.com/dutch-translators)
 *
 */
 if (!defined('IN_PHPBB'))
