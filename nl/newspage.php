@@ -1,14 +1,15 @@
 <?php
 /**
-*
-* newspage [Dutch]
-*
-* @package language
-* @version $Id$
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Dutch translation by Dutch Translators (https://github.com/dutch-translators)
-*
-*/
+ * This file is part of the NV Newspage Extension package.
+ *
+ * @copyright (c) nickvergessen <https://github.com/nickvergessen>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ * Dutch translation by Dutch Translators (https://github.com/dutch-translators)
+ *
+ * For full copyright and license information, please see
+ * the license.txt file.
+ */
+ 
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -51,15 +52,19 @@ $lang = array_merge($lang, array(
 	'NEWS_SHADOW_SHOW'					=> 'Laat verplaatste onderwerpen zien',
 	'NEWS_USER_INFO'					=> 'Laat gebruikers informatie zien',
 	'NEWS_USER_INFO_EXPLAIN'			=> 'Avatar, Profiel velden, enz.',
+	
 	'NO_NEWS'							=> 'Er zijn geen nieuwsberichten.',
 	'NO_NEWS_ARCHIVE'					=> 'Er zijn geen nieuwsberichten in het archief.',
 	'NO_NEWS_CATEGORY'					=> 'Er zijn geen nieuwsberichten in deze categorie.',
+	
 	'NEWSPAGE'							=> 'Nieuws',
+	
 	'VIEW_NEWS_POSTS'	=> array(
 		0	=> 'Geen nieuws',
 		1	=> '1 nieuws',
 		2	=> '%d nieuws',
 	),
+	
 	'VIEWONLINE_NEWS'					=> 'Bekijkt nieuwspagina',
 	'VIEWONLINE_NEWS_ARCHIVE'			=> 'Bekijkt nieuws van %s',
 	'VIEWONLINE_NEWS_CATEGORY'			=> 'Bekijkt nieuws in %s',
