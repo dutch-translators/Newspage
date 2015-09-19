@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the NV Newspage Extension package.
  *
@@ -14,7 +15,6 @@ if (!defined('IN_PHPBB'))
 {
 	exit;
 }
-
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -32,6 +32,7 @@ $lang = array_merge($lang, array(
 	'NEWS_CAT'							=> 'Categorieën',
 	'NEWS_CAT_SHOW'						=> 'Sta toe om te sorteren op forums',
 	'NEWS_CHAR_LIMIT'					=> 'Aantal karakters',
+	'NEWS_CHAR_LIMIT_EXPLAIN'	        => 'Stel in op "0" om de volledige tekst te tonen',
 	'NEWS_COMMENTS'						=> 'Reacties',
 	'NEWS_FILTER_ARCHIVE'				=> 'Filter datum',
 	'NEWS_FILTER_BY_ARCHIVE'			=> 'Sorteer op datum',
